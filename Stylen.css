@@ -9,6 +9,57 @@
 
 /* -------------------whole elem------------------------ */
 
+/* -------------------modeChange------------- */
+
+.light-body {
+    color: #252525;
+    background: white;
+}
+
+.dark-body  {
+    color: white;
+    background: #252525;
+}
+
+.light-toggle {
+    color: white;
+    background: #252525;
+}
+
+.dark-toggle {
+    color: #252525;
+    background: white;
+}
+
+.light-profile-img {
+    border: 3px solid #e2d7d7;
+}
+
+.dark-profile-img {
+    border: 3px solid #585858;
+}
+
+.dark-table {
+    border: 1px solid white;
+}
+
+.light-table {
+    border: 1px solid #000000;
+}
+
+.dark-th {
+    color: #252525;
+    background: white;
+}
+
+.light-th {
+    background: #252525;
+    color: white;
+}
+
+
+/* -------------------modeChange------------- */
+
 
 /* ---------------------body--------------------------- */
 
