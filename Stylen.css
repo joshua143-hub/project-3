@@ -1,3 +1,4 @@
+
 /* ------------------whole elem----------------------- */
 
 
@@ -11,14 +12,11 @@
 
 /* -------------------modeChange------------- */
 
+/* ---------------------light mode------------------ */
+
 .light-body {
     color: #252525;
     background: white;
-}
-
-.dark-body  {
-    color: white;
-    background: #252525;
 }
 
 .light-toggle {
@@ -26,13 +24,26 @@
     background: #252525;
 }
 
+.light-profile-img {
+    border: 3px solid #e2d7d7;
+}
+
+.light-table {
+    border: 1px solid #000000;
+}
+
+/* ------------------light mode------------------- */
+
+/* -------------------dark mode------------------- */
+
+.dark-body  {
+    color: white;
+    background: #252525;
+}
+
 .dark-toggle {
     color: #252525;
     background: white;
-}
-
-.light-profile-img {
-    border: 3px solid #e2d7d7;
 }
 
 .dark-profile-img {
@@ -43,19 +54,8 @@
     border: 1px solid white;
 }
 
-.light-table {
-    border: 1px solid #000000;
-}
+/* -----------------dark mode-------------------- */
 
-.dark-th {
-    color: #252525;
-    background: white;
-}
-
-.light-th {
-    background: white;
-    color: #252525;
-}
 
 
 /* -------------------modeChange------------- */
@@ -93,9 +93,7 @@ body::-webkit-scrollbar {
     width: 12px;
 }
 
-
-/* ---------------------body--------------------------- */
-
+/* -----------------------body-------------------------- */
 
 /* ------------------------header----------------------- */
 
@@ -118,18 +116,17 @@ dt {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: url("./jd.jpg") no-repeat;
+    background: url("./myprofile.jpg") no-repeat;
     background-size: 400px 400px;
-    background-position-x: -100px;
-    background-position-y: -20px;
-    /*border: 3px solid #585858;*/
+    background-position-x: -30px;
+    /* border: 3px solid #585858; */
 }
 
 /* --------------------header------------------------------ */
 
 /* ----------------------contacts-------------------------- */
 
-.contacts {
+#contacts {
     margin: 10px;
     width: 80%;
     display: flex;
@@ -141,7 +138,7 @@ dt {
     height: 60px;
 }
 
-.contacts div img {
+#contacts div img {
     width: 36px;
     height: 36px;
     margin-bottom: 28px;
@@ -151,7 +148,9 @@ dt {
 
 
 
-/* ----------------------table------------------------------ */.table-wrapper {
+/* ----------------------table------------------------------ */
+
+.table-wrapper {
     overflow-x: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
