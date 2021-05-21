@@ -12,23 +12,23 @@
 /* -------------------modeChange------------- */
 
 .light-body {
-    color: #252525;
-    background: white;
+    color: white;
+    background: #252525;
 }
 
 .dark-body  {
-    color: white;
-    background: #252525;
+    color: #252525;
+    background: white;
 }
 
 .light-toggle {
-    color: white;
-    background: #252525;
+    color: #252525;
+    background: white;
 }
 
 .dark-toggle {
-    color: #252525;
-    background: white;
+    color: white;
+    background: #252525;
 }
 
 .light-profile-img {
@@ -48,8 +48,8 @@
 }
 
 .dark-th {
-    color: #252525;
-    background: white;
+    color: white;
+    background: #252525;
 }
 
 .light-th {
