@@ -71,7 +71,7 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
