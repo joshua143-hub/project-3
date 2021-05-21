@@ -71,7 +71,7 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -116,9 +116,10 @@ dt {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: url("./myprofile.jpg") no-repeat;
+    background: url("./jd.jpg") no-repeat;
     background-size: 400px 400px;
-    background-position-x: -30px;
+    background-position-x: -100px;
+    background-position-y: -20px;
     /* border: 3px solid #585858; */
 }
 
