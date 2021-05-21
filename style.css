@@ -127,7 +127,7 @@ dt {
 
 /* ----------------------contacts-------------------------- */
 
-#contacts {
+.contacts {
     margin: 10px;
     width: 80%;
     display: flex;
@@ -139,7 +139,7 @@ dt {
     height: 60px;
 }
 
-#contacts div img {
+.contacts div img {
     width: 36px;
     height: 36px;
     margin-bottom: 28px;
